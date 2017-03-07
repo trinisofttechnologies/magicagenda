@@ -1,0 +1,13 @@
+<template name="home_default">
+    <div class="main">
+        <!-- {{>header}} -->
+        <div class="mainSubDiv">
+            {{> yield region="bodyTemplate"}}
+        </div>
+    </div>
+</template>
+<template name="staticLayout">
+    <div class="main">
+        {{> yield region="bodyTemplate"}}
+    </div>
+</template>
